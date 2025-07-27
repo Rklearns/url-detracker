@@ -1,0 +1,69 @@
+{
+  "name": "url-detracker",
+  "displayName": "URL De-Tracker",
+  "description": "Automatically strips utm_*, fbclid, gclid and other tracking junk from every URL you paste in VS Code.",
+  "version": "1.2.1",
+  "publisher": "Rishitkar",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "icon": "icon.png",
+  "main": "./extension.js",
+  "activationEvents": ["*"],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rishitkar/url-detracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rishitkar/url-detracker/issues"
+  },
+  "homepage": "https://github.com/rishitkar/url-detracker#readme",
+
+  "contributes": {
+    "commands": [
+      {
+        "command": "urlDetracker.paste",
+        "title": "Paste Clean URL"
+      },
+      {
+        "command": "urlDetracker.toggle",
+        "title": "Toggle URL De-Tracker"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "urlDetracker.paste",
+        "key": "ctrl+v",
+        "mac": "cmd+v",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "title": "URL De-Tracker",
+      "properties": {
+        "urlDetracker.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable / disable URL De-Tracker"
+        },
+        "urlDetracker.keepList": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [],
+          "description": "Regex patterns for query keys that must never be removed"
+        },
+        "urlDetracker.removeList": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [],
+          "description": "Regex patterns for extra query keys you always want removed"
+        }
+      }
+    }
+  },
+
+  "keywords": ["url", "utm", "clean", "tracker", "privacy", "clipboard"],
+  "categories": ["Other"],
+  "license": "MIT"
+}
