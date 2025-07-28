@@ -3,8 +3,8 @@
 **Paste a link → get a clean link.**
 
 Automatically removes tracking garbage (`utm_*`, `fbclid`, `gclid`, Amazon affiliate tags, etc.) from any URL you paste in Visual Studio Code. **No external APIs** - everything happens locally on your machine.
+![ScreenRecording2025-07-28at10 35 11AM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/069c1787-3960-4eab-89fd-3eb7fa6fbbfb)
 
-![Screen Recording 2025-07-28 at 10 35 11 AM-2](https://github.com/user-attachments/assets/cabaeae0-edf1-4a44-9dfa-61123c0f6a77)
 
 
 ## ✨ What Makes This Different
