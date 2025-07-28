@@ -4,7 +4,7 @@
 
 Automatically removes tracking garbage (`utm_*`, `fbclid`, `gclid`, Amazon affiliate tags, etc.) from any URL you paste in Visual Studio Code. **No external APIs** - everything happens locally on your machine.
 
-<img width="1192" height="738" alt="Screenshot 2025-07-28 at 10 02 42 AM" src="https://github.com/user-attachments/assets/7e390cc3-f718-425d-8a3b-26622f68fe3a" />
+![Screen Recording 2025-07-28 at 10 35 11 AM-2](https://github.com/user-attachments/assets/cabaeae0-edf1-4a44-9dfa-61123c0f6a77)
 
 
 ## ✨ What Makes This Different
