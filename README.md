@@ -4,7 +4,9 @@
 
 Automatically removes tracking garbage (`utm_*`, `fbclid`, `gclid`, Amazon affiliate tags, etc.) from any URL you paste in Visual Studio Code. **No external APIs** - everything happens locally on your machine.
 
-[URL De-Tracker on VS-Code](image.png)
+<img width="1192" height="738" alt="Screenshot 2025-07-28 at 10 02 42 AM" src="https://github.com/user-attachments/assets/7e390cc3-f718-425d-8a3b-26622f68fe3a" />
+
+
 ## ✨ What Makes This Different
 
 ### ❌ **NOT a URL Shortener**
