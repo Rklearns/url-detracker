@@ -90,19 +90,7 @@ code --install-extension rishitkar.url-detracker
 ### 1. Verify Installation
 After installation, check the **status bar** (bottom-right) shows: `🔗 Clean ON`
 
-### 2. Test with Real Links
-
-**Copy this messy Amazon URL:**
-
-```bash
-https://www.amazon.com/Anker-Wireless-Charging/dp/B09G9F54DC?th=1&psc=1
-```
-**Paste in VS Code** (`Ctrl+V` / `Cmd+V`) → becomes:
-
-```bash
-https://www.amazon.com/Anker-Wireless-Charging/dp/B09G9F54DC?th=1&psc=1
-```
-### 3. See the Magic
+### 2. See the Magic
 - ✅ Brief toast: `🔗 tracking params removed`
 - ✅ Status bar shows activity
 - ✅ Clean, readable URL - still points to Amazon, just without junk
