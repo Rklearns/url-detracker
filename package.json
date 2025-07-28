@@ -2,7 +2,7 @@
   "name": "url-detracker",
   "displayName": "URL De-Tracker",
   "description": "Automatically strips utm_*, fbclid, gclid and other tracking junk from every URL you paste in VS Code.",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "publisher": "Rishitkar",
   "engines": {
     "vscode": "^1.74.0"
