@@ -13,12 +13,12 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/rishitkar/url-detracker.git"
+    "url": "https://github.com/Rklearns/url-detracker.git"
   },
   "bugs": {
-    "url": "https://github.com/rishitkar/url-detracker/issues"
+    "url": "https://github.com/Rklearns/url-detracker/issues"
   },
-  "homepage": "https://github.com/rishitkar/url-detracker#readme",
+  "homepage": "https://github.com/Rklearns/url-detracker#readme",
 
   "contributes": {
     "commands": [
